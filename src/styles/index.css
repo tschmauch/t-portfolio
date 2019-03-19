@@ -24,21 +24,21 @@ html {
 }
 
 .home {
-  /* background-image: url('../images/New\ Iceberg\ 3.jpg'); */
+  background-image: url('../images/ridgeRidePano.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .video {
-  /* background-image: url('../images/Gifs/Colorado\ river\ gif.gif'); */
+  background-image: url('../images/yosemite.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .about {
-  /* background-image: url('../images/Images/stazia\ Black\ and\ white\ profile-0911-2.jpg'); */
+  background-image: url('../images/theoYetiBelay.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -57,14 +57,14 @@ html {
 }
 
 .photo {
-  /* background-image: url('../images/Images/Fall\ Colors-2.jpg'); */
+  background-image: url('../images/theoShark.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .contact {
-  /* background-image: url('../images/oceanBoat.jpg'); */
+  background-image: url('../images/theoLisa.JPG');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -112,7 +112,7 @@ h2 {
 }
 
 #mainPageVideo.hovering {
-  /* background-image: url('../images/Gifs/Shredding.gif'); */
+  background-image: url('../images/khumbu.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -122,7 +122,7 @@ h2 {
 }
 
 #mainPageAbout.hovering {
-  /* background-image: url('../images/colbyPack.jpg'); */
+  background-image: url('../images/chiwang.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -132,7 +132,7 @@ h2 {
 }
 
 #mainPagePhoto.hovering {
-  /* background-image: url('../images/photoReelGif.gif'); */
+  background-image: url('../images/Sunrise\ Service-4.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -142,7 +142,7 @@ h2 {
 }
 
 .contactForm {
-  /* background-image: url('../images/mountainTop.jpg'); */
+  background-image: url('../images/BNTedit.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

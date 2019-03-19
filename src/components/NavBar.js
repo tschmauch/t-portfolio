@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../images/Logos/mediaLogos/ANGELOS MEDIA LOGOS-04.png';
+import logo from '../images/theoLisa';
 
 function NavBar() {
   return (
