@@ -109,7 +109,7 @@ const MyForm = props => {
             />
             <TextInput
                 id="message"
-                type="text"
+                type="textarea"
                 label="Message"
                 placeholder="Type your message here..."
                 error={touched.message && errors.message}

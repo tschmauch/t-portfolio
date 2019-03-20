@@ -31,14 +31,14 @@ html {
 }
 
 .video {
-  background-image: url('../images/yosemite.jpg');
+  background-image: url('../images/Sunrise\ Service-4.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .about {
-  background-image: url('../images/theoYetiBelay.jpg');
+  background-image: url('../images/theoYetiBelay\ \(2\).jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -57,14 +57,14 @@ html {
 }
 
 .photo {
-  background-image: url('../images/theoShark.jpg');
+  background-image: url('../images/khumbu\ \(2\).jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .contact {
-  background-image: url('../images/theoLisa.JPG');
+  background-image: url('../images/chiwang\ \(2\).jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -112,7 +112,7 @@ h2 {
 }
 
 #mainPageVideo.hovering {
-  background-image: url('../images/khumbu.jpg');
+  background-image: url('../images/theoShark\ \(2\).jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -122,7 +122,7 @@ h2 {
 }
 
 #mainPageAbout.hovering {
-  background-image: url('../images/chiwang.jpg');
+  background-image: url('../images/theoLisa.JPG');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -142,10 +142,11 @@ h2 {
 }
 
 .contactForm {
-  background-image: url('../images/BNTedit.jpg');
+  background-color: rgba(20, 20, 20, 0.3);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  padding: 5px;
   margin-left: 20%;
   max-width: 40%;
   margin: auto;
@@ -155,6 +156,10 @@ h2 {
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* Formik CSS */
+#message {
+  line-height: auto;
+}
+
 .text-input {
   padding: .5rem;
   font-size: 16px;
@@ -232,8 +237,6 @@ button.outline {
   border: 1px solid #aaa;
   color: #555;
 }
-
-
 
 .animated {
   animation-duration: 1s;
