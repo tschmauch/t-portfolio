@@ -75,7 +75,7 @@ const MyForm = props => {
         isSubmitting,
     } = props;
     return (
-        <div className='contact row mainRow'>
+        <div className='connect row mainRow'>
         <form className='contactForm' onSubmit={handleSubmit}>
             <TextInput
                 id="firstName"

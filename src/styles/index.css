@@ -30,7 +30,7 @@ html {
   background-position: center center;
 }
 
-.video {
+.portfolio {
   background-image: url('../images/sundial.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -57,14 +57,7 @@ html {
   text-align: justify
 }
 
-.photo {
-  background-image: url('../images/Sunrise\ Service-4.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.contact {
+.connect {
   background-image: url('../images/chiwang\ \(2\).jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -77,7 +70,7 @@ html {
   width: 100%;
   text-align: center;
   background-color: black;
-  opacity: .2;
+  opacity: .4;
 }
 
 body {
@@ -112,7 +105,7 @@ h2 {
   height: 100vh;
 }
 
-#mainPageVideo.hovering {
+#mainPagePortfolio.hovering {
   background-image: url('../images/theoShark\ \(2\).jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -132,7 +125,7 @@ h2 {
   overflow-x: hidden;
 }
 
-#mainPagePhoto.hovering {
+#mainPageConnect.hovering {
   background-image: url('../images/Sunrise\ Service-4.jpg');
   background-size: cover;
   background-repeat: no-repeat;

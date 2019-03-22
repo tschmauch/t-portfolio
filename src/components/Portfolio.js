@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import {Route, Link} from 'react-router-dom';
 
-class Photo extends Component {
+class Portfolio extends Component {
     render() {
       return (
-        <div className='photo row mainRow'>
+        <div className='portfolio row mainRow'>
          
         </div>
       );
     }
   }
 
-export default Photo;
+export default Portfolio;

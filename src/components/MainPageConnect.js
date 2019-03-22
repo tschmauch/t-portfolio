@@ -3,7 +3,7 @@ import CreateReactClass from 'create-react-class';
 import { Link } from 'react-router-dom'
 // import axios from 'axios';
 
-var MainPageVideo = CreateReactClass({
+var MainPageConnect = CreateReactClass({
   getInitialState: function () {
     return {
       hover: false
@@ -25,17 +25,16 @@ var MainPageVideo = CreateReactClass({
   render: function () {
     return (
       <div
-        id="mainPageVideo"
+        id="mainPageConnect"
         className={ this.state.hover ? "hovering mainPage col-sm-4 col-xs-12" : "notHovering mainPage col-sm-4 col-xs-12" }
           onMouseEnter={this.hoverOn}
           onMouseLeave={this.hoverOff}>
-        <Link to="/video" >
-          <h2>VIDEO</h2>
+        <Link to="/connect" >
+          <h2>CONNECT</h2>
         </Link>
       </div>
 
     )
   }
 })
-
-export default MainPageVideo;
+export default MainPageConnect;

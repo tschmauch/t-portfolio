@@ -15,16 +15,13 @@ function NavBar() {
       <div className="collapse navbar-collapse" id="navbarColor01">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <Link to='/video' className="nav-link" >Video<span className="sr-only"></span></Link>
+            <Link to='/portfolio' className="nav-link" >Portfolio<span className="sr-only"></span></Link>
           </li>
           <li className="nav-item">
             <Link to='/about' className="nav-link" >About</Link>
           </li>
           <li className="nav-item">
-            <Link to='/photo' className="nav-link" >Photo</Link>
-          </li>
-          <li className="nav-item">
-            <Link to='/contact' className="nav-link" >Contact</Link>
+            <Link to='/connect' className="nav-link" >Connect</Link>
           </li>
         </ul>
       </div>

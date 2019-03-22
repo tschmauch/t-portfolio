@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import NavBar from './NavBar';
 import Home from './Home.js'
-import Video from './Video.js'
+import Portfolio from './Portfolio.js'
 import About from './About.js'
-import Photo from './Photo.js'
-import Contact from './Contact.js'
+import Connect from './Connect.js'
 import Footer from './Footer.js'
 
 class App extends Component {
@@ -15,10 +14,9 @@ class App extends Component {
         <NavBar />
         <div>
           <Route exact path='/' component={Home} />
-          <Route exact path='/video' component={Video} />
+          <Route exact path='/portfolio' component={Portfolio} />
           <Route exact path='/about' component={About} />
-          <Route exact path='/contact' component={Contact} />
-          <Route exact path='/photo' component={Photo} />
+          <Route exact path='/connect' component={Connect} />
         </div>
         <Footer />
       </div>

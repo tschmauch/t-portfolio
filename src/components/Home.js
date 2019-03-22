@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import MainPageVideo from './MainPageVideo';
+import MainPagePortfolio from './MainPagePortfolio';
 import MainPageAbout from './MainPageAbout';
-import MainPagePhoto from './MainPagePhoto';
+import MainPageConnect from './MainPageConnect';
 
 class Home extends Component {
     render() {
         return (
             <div className="row home mainRow">
-                <MainPageVideo />
+                <MainPagePortfolio />
                 <MainPageAbout />
-                <MainPagePhoto />
+                <MainPageConnect />
             </div>
         );
     }
