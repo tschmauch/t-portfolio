@@ -8,6 +8,10 @@ html {
   overflow-x: hidden;
 }
 
+.navbar {
+  background-color: rgba(0,0,0,.02);
+}
+
 #navLogo {
   position: relative;
   z-index: 2;
@@ -37,24 +41,73 @@ html {
   background-position: center center;
 }
 
-.about {
-  background-image: url('../images/khumbu\ \(2\).jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+/* Parallax Demonstration on About Me page */
+
+.wrapper {
+  /* The height needs to be set to a fixed value for the effect to work.
+     * 100vh is the full height of the viewport. */
+  height: 100vh;
+  /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
+  overflow-x: hidden;
+  /* Enable scrolling on the page. */
+  overflow-y: auto;
+  /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
+  perspective: 2px;
 }
 
-#aboutUs {
-  background-color: rgb(78, 49, 49);
-  border-radius: 10px;
-  color: white;
-  margin: auto;
-  max-width: 33%;
-  margin-left: 33%;
-  padding: 10px;
-  opacity: .75;
-  font-size: 1.25rem;
-  text-align: justify
+.parallaxSection {
+  /* Needed for children to be absolutely positioned relative to the parent. */
+  position: relative;
+  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
+  height: 100vh;
+
+  /* For text formatting. */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(213,213,213);
+  text-shadow: 0 0 5px #000;
+}
+
+.parallax::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* Move the pseudo-element back away from the camera,
+     * then scale it back up to fill the viewport.
+     * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
+  transform: translateZ(-1px) scale(1.5);
+  /* Force the background image to fill the whole element. */
+  background-size: 100%;
+  /* Keep the image from overlapping sibling elements. */
+  z-index: -1;
+}
+
+/* The styling for the static div. */
+.static {
+  background: #242a49;
+  height: auto;
+}
+
+/* Sets the actual background images. */
+.bg1::after {
+  background-image: url('../images/BNTedit\ \(2\).jpg');
+  background-repeat: no-repeat;
+}
+
+.bg2::after {
+  background-image: url('../images/chiwang\ \(2\).jpg');
+  background-repeat: no-repeat;
+}
+/* END OF PARALLAX */
+
+.aboutMe {
+  padding: 35px 23% 35px 23%;
+  font-size: 1.4rem;
 }
 
 .connect {

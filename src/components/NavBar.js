@@ -4,7 +4,7 @@ import logo from '../images/BisoNT.png';
 
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top border-bottom-0">
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top border-bottom-0">
       <Link to='/' className="navbar-brand" >        
         <img id='navLogo' src={logo} alt="" />
       </Link>
